@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background: #079da0;
+}
+
+label {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px #c2c2c2;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containers {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-input {
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 2rem;
+    border: 2px solid #000;
+    background-color: #fdbb2d;
+}
+
+.container-input textarea {
+    height: 10rem;
+    resize: none;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+.container-input textarea:hover {
+    border: 1px solid #000;
+}
+
+.container-input button {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: #fdbb2d;
+    border: 2px solid #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container button:hover {
+    border: 2px solid #fff;
+}
+
+.container-output {
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 2rem;
+    border: 2px solid #000;
+    background-color: #fdbb2d;
+}
+
+.container-output textarea {
+    height: 10rem;
+    resize: none;
+    border-radius: 0.5rem;
+    pointer-events: none;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+.container-output textarea:hover {
+    border: 1px solid #000;
+}
+
+.container .btn-translate {
+    position: fixed;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #fdbb2d;
+    border: 2px solid #000;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5em;
+}
+
+.container .btn-translate:hover {
+    border: 2px solid #fff;
+}
