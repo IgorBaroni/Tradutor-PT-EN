@@ -5,9 +5,9 @@ import speech_recognition as sr
 app = Flask(__name__)
 
 def Traduzir(txt):
-    translator = GoogleTranslator(source="pt", target="en")
-    translation = translator.translate(txt)
-    return translation
+    tradutor = GoogleTranslator(source="pt", target="en")
+    traducao = tradutor.translate(txt)
+    return traducao
 
 def gravarVoz():
     rec = sr.Recognizer()
